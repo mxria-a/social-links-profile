@@ -3,6 +3,22 @@
         color: hsl(0, 0%, 100%);
         font-family: "Inter", sans-serif;
     }
+
+    .profile-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        margin: 0;
+    }
+
+    .profile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: hsl(0, 0%, 12%);
+        padding: 42px;
+    }
     
     .attribution { 
         font-size: 0.6875rem; 
