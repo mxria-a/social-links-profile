@@ -18,8 +18,33 @@
         align-items: center;
         background-color: hsl(0, 0%, 12%);
         padding: 42px;
+        border-radius: 8px;
     }
     
+    .avatar {
+        width: 90px;
+        border-radius: 100%;
+    }
+
+    .full-name {
+        font-size: 22px;
+        font-weight: 700;
+    }
+
+    .location,
+    .description {
+        font-size: 14px;
+    }
+
+    .location {
+        font-weight: 600;
+        color: hsl(75, 94%, 57%);
+    }
+
+    .description {
+        font-weight: 400;
+    }
+
     .attribution { 
         font-size: 0.6875rem; 
         text-align: center; 
