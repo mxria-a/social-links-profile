@@ -1,0 +1,14 @@
+    body {
+        background-color: hsl(0, 0%, 8%);
+        color: hsl(0, 0%, 100%);
+        font-family: "Inter", sans-serif;
+    }
+    
+    .attribution { 
+        font-size: 0.6875rem; 
+        text-align: center; 
+    }
+
+    .attribution a { 
+        color: hsl(228, 45%, 44%); 
+    }
