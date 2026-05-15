@@ -24,21 +24,30 @@
     .avatar {
         width: 90px;
         border-radius: 100%;
+        margin-bottom: 24px;
+    }
+
+    .user-details {
+        margin-bottom: 5px;
     }
 
     .full-name {
-        font-size: 22px;
-        font-weight: 700;
+        font-size: 24px;
+        font-weight: 600;
+        text-align: center;
+        margin: 0;
     }
 
     .location,
     .description {
         font-size: 14px;
+        text-align: center;
     }
 
     .location {
         font-weight: 600;
         color: hsl(75, 94%, 57%);
+        margin-top: 8px;
     }
 
     .description {
@@ -48,10 +57,11 @@
     .socials {
         display: flex;
         flex-direction: column;
-        width: 100%;
+        width: 306px;
         font-size: 14px;
         text-align: center;
         gap: 16px;
+        margin-top: 10px;
     }
 
     .social-links {
