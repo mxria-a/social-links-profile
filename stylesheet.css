@@ -45,6 +45,22 @@
         font-weight: 400;
     }
 
+    .socials {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        font-size: 14px;
+        text-align: center;
+        gap: 16px;
+    }
+
+    .social-links {
+        background-color: hsl(0, 0%, 20%);
+        padding: 12px 0;
+        border-radius: 6px;
+        margin: 0;
+    }
+
     .attribution { 
         font-size: 0.6875rem; 
         text-align: center; 
