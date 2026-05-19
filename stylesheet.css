@@ -1,7 +1,15 @@
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+    }
+    
     body {
         background-color: hsl(0, 0%, 8%);
         color: hsl(0, 0%, 100%);
         font-family: "Inter", sans-serif;
+        margin: 0;
+        padding: 16px;
     }
 
     .profile-wrapper {
@@ -9,7 +17,6 @@
         justify-content: center;
         align-items: center;
         min-height: 100vh;
-        margin: 0;
     }
 
     .profile {
@@ -19,6 +26,8 @@
         background-color: hsl(0, 0%, 12%);
         padding: 42px;
         border-radius: 8px;
+        width: 100%;
+        max-width: 390px;
     }
     
     .avatar {
@@ -57,7 +66,8 @@
     .socials {
         display: flex;
         flex-direction: column;
-        width: 306px;
+        width: 100%;
+        max-width: 306px;
         font-size: 14px;
         text-align: center;
         gap: 16px;
