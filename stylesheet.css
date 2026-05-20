@@ -81,6 +81,12 @@
         margin: 0;
     }
 
+    .social-links:hover {
+        background: hsl(75, 94%, 57%);
+        color: hsl(0, 0%, 8%);
+        box-shadow: 0 0 16px hsl(255, 255, 255, 0.25);
+    }
+
     .attribution { 
         font-size: 0.6875rem; 
         text-align: center; 
